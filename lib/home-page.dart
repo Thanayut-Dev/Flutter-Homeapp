@@ -34,13 +34,14 @@ class _HomePageState extends State<HomePage> {
                 ),
                 SlideCategory(),
                 SizedBox(
-                  height: 5,
+                  height: 20,
                 ),
                 SlideCoupong(),
                 SlideAds(),
-                SizedBox(
-                  height: 5,
-                ),
+                // SizedBox(
+                //   height: 5,
+                // ),
+                 
                 StorenearmePage(),
                 // GuessLikeList(),
               ],
