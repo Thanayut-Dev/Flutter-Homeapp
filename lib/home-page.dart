@@ -6,6 +6,8 @@ import 'package:Q_FlutterApp/slide-category-page.dart';
 import 'package:Q_FlutterApp/slide-coupong.dart';
 import 'package:Q_FlutterApp/slide-promotion-page.dart';
 import 'package:Q_FlutterApp/storenearme-page.dart';
+
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomPadding: true,
       body: ListView(
         children: <Widget>[
           Stack(
@@ -64,10 +66,6 @@ class _HomePageState extends State<HomePage> {
                 height: 5,
               ),
               StorenearmePage(),
-              // SizedBox(
-              //   height: 5,
-              // ),
-              // TopShopPage(),
               Container(
                 height: 150,
                 child: SlideAds(),
@@ -88,6 +86,44 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(
+              FontAwesomeIcons.home,
+              color: Colors.grey,
+            ),
+            title: Text(
+              'Home',
+              style: TextStyle(color: Colors.grey),
+            ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              FontAwesomeIcons.userAlt,
+              color: Colors.grey,
+            ),
+            title: Text(
+              'Profile',
+              style: TextStyle(color: Colors.grey),
+            ),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              FontAwesomeIcons.cog,
+              color: Colors.grey,
+            ),
+            title: Text(
+              'Settings',
+              style: TextStyle(color: Colors.grey),
+            ),
+          ),
+        ],
+        // currentIndex: _selectedIndex,
+        selectedItemColor: Theme.of(context).primaryColor,
+        unselectedItemColor: Colors.grey,
+        // onTap: _onItemTapped,
       ),
     );
   }

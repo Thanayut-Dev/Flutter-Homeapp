@@ -19,7 +19,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
         crossAxisCount: 1,
         children: <Widget>[
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_1.jpg",
@@ -30,7 +30,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_2.jpg",
@@ -41,7 +41,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_3.jpg",
@@ -52,7 +52,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_4.jpg",
@@ -63,7 +63,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_5.jpg",
@@ -74,7 +74,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_6.jpg",
@@ -85,7 +85,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_7.jpg",
@@ -96,7 +96,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_8.jpg",
@@ -107,7 +107,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_9.jpg",
@@ -118,7 +118,7 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
             ),
           ),
           Container(
-            padding: const EdgeInsets.only(top: 5.0, left: 10),
+            padding: const EdgeInsets.only(top: 5.0,left: 10),
             child: Center(
               child: Image.asset(
                 "assets/images/img-services/shotcuts/Icon_10.jpg",
@@ -313,3 +313,36 @@ class _RecommendedBrandsPageState extends State<RecommendedBrandsPage> {
     );
   }
 }
+
+
+
+
+
+// return Row(
+//         children: <Widget>[
+//           Expanded(
+//             flex: 3,
+//             child: Container(
+//               padding: const EdgeInsets.all(30.0),
+//               color: Colors.red,
+//               child: Text("testExpanded"),
+//             ),
+//           ),
+//           Expanded(
+//             flex: 3,
+//             child: Container(
+//               padding: const EdgeInsets.all(30.0),
+//               color: Colors.black,
+//               child: Text("testExpanded"),
+//             ),
+//           ),
+//           Expanded(
+//             flex: 3,
+//             child: Container(
+//               padding: const EdgeInsets.all(30.0),
+//               color: Colors.red,
+//               child: Text("testExpanded"),
+//             ),
+//           ),
+//         ],
+//       );
