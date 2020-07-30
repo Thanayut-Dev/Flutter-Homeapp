@@ -1,16 +1,15 @@
 // import 'package:Q_FlutterApp/mockdata.dart';
-import 'package:Q_FlutterApp/topshop-page.dart';
 import 'package:flutter/material.dart';
 
-class StorenearmePage extends StatelessWidget {
+class TopShopPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         Container(
-          margin: EdgeInsets.only(top: 10, right: 250.0),
+          margin: EdgeInsets.only(right: 250.0),
           child: Text(
-            "ร้านที่ใกล้ฉัน",
+            "ร้านยอดนิยม",
             style: TextStyle(
               fontSize: 18,
               color: Colors.black,
@@ -41,7 +40,7 @@ class StorenearmePage extends StatelessWidget {
                           fit: StackFit.passthrough,
                           children: <Widget>[
                             Image.asset(
-                              "assets/images/img-services/shop-image/shop-1.jpg",
+                              "assets/images/img-services/shop-image/shop-5.jpg",
                               fit: BoxFit.cover,
                               width: 250,
                             ),
@@ -87,7 +86,7 @@ class StorenearmePage extends StatelessWidget {
                           fit: StackFit.passthrough,
                           children: <Widget>[
                             Image.asset(
-                              "assets/images/img-services/shop-image/shop-2.jpg",
+                              "assets/images/img-services/shop-image/shop-6.jpg",
                               fit: BoxFit.cover,
                               // width: 250,
                             ),
@@ -133,7 +132,7 @@ class StorenearmePage extends StatelessWidget {
                           fit: StackFit.passthrough,
                           children: <Widget>[
                             Image.asset(
-                              "assets/images/img-services/shop-image/shop-3.jpg",
+                              "assets/images/img-services/shop-image/shop-7.jpg",
                               fit: BoxFit.cover,
                               width: 250,
                             ),
@@ -179,7 +178,7 @@ class StorenearmePage extends StatelessWidget {
                           fit: StackFit.passthrough,
                           children: <Widget>[
                             Image.asset(
-                              "assets/images/img-services/shop-image/shop-4.jpg",
+                              "assets/images/img-services/shop-image/shop-8.jpg",
                               fit: BoxFit.cover,
                               // width: 250,
                             ),
@@ -218,7 +217,6 @@ class StorenearmePage extends StatelessWidget {
             ],
           ),
         ),
-        TopShopPage()
       ],
     );
   }

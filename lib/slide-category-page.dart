@@ -52,7 +52,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ร้านกาแฟ",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -72,7 +72,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "คลินิคทันตกรรม",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -92,7 +92,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ร้านอาหาร",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -112,7 +112,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "สนามกอล์ฟ",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -132,7 +132,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ฟิตเนส",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -152,7 +152,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ร้านเสริมสวย",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -172,7 +172,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ร้านสัตว์เลี้ยง",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -192,7 +192,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ตลาดสด",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],
@@ -212,7 +212,7 @@ class _SlideCategoryState extends State<SlideCategory> {
                   ),
                 ),
                 Text(
-                  "ร้านตัดผมชาย",
+                  "ร้านสปา-ร้านนวด",
                   style: TextStyle(fontSize: 12, color: Colors.black),
                 )
               ],

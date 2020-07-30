@@ -1,5 +1,5 @@
-import 'package:Q_FlutterApp/mockdata.dart';
-import 'package:Q_FlutterApp/progeamme.dart';
+import 'package:Q_FlutterApp/test-image/mockdata.dart';
+import 'package:Q_FlutterApp/test-image/progeamme.dart';
 import 'package:flutter/material.dart';
 
 // import 'mock_data.dart';

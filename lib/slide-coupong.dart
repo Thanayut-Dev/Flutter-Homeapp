@@ -13,6 +13,7 @@ class _SlideCoupongState extends State<SlideCoupong> {
     return Column(
       children: <Widget>[
         Container(
+          margin: EdgeInsets.only(right: 130.0),
           child: Text(
             "ส่วนลด (ร้านค้าที่ร่วมรายการ)",
             style: TextStyle(
